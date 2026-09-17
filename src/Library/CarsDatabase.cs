@@ -5,7 +5,7 @@
 //------------------------------------------------------------------------------
 
 using System;
-using System.Collections;
+using System.Collections.Generic;
 
 namespace Ucu.Poo.Repositories
 {
@@ -14,7 +14,7 @@ namespace Ucu.Poo.Repositories
     /// </summary>
     public class CarsDatabase
     {
-        private ArrayList cars = new ArrayList();
+        private List<Car> cars = new List<Car>();
 
         /// <summary>
         /// Agrega un auto a la base de datos.

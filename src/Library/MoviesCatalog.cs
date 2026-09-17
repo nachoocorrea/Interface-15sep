@@ -5,7 +5,7 @@
 //------------------------------------------------------------------------------
 
 using System;
-using System.Collections;
+using System.Collections.Generic;
 
 namespace Ucu.Poo.Repositories
 {
@@ -14,7 +14,7 @@ namespace Ucu.Poo.Repositories
     /// </summary>
     public class MoviesCatalog
     {
-        private ArrayList movies = new ArrayList();
+        private List<Movie> movies = new List<Movie>();
 
         /// <summary>
         /// Agrega una película al catálogo.
